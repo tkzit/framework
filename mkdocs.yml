@@ -42,9 +42,7 @@ extra:
         link: https://www.linkedin.com/company/30680659/
       - icon: fontawesome/brands/github
         link: https://github.com/zubzet
-    version:
-        provider: mike
-
+    
 extra_css:
   - stylesheets/extra.css
 # Extensions
@@ -88,7 +86,7 @@ plugins:
     - search
     - minify:
         minify_html: true
-        
+
 # Navigation
 nav:
     - Getting Started: index.md
